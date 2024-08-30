@@ -37,8 +37,7 @@ def gen_exist(a_name_key):
 
 
 st.write("Please provide your google API key")
-gak = "AIzaSyDoqd4CbQxrDGUuA12rz36mUS2asmGDmxY"        
-        #  AIzaSyDoqd4CbQxrDGUuA12rz36mUS2asmGDmxY""")
+
 use_img = st.checkbox("Work with images")
 if use_img:
     st.session_state.should_i_disable = not use_img
