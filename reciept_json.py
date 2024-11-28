@@ -61,7 +61,7 @@ if gen_exist("gen"):
       generation_config = {
     "temperature": 0.9,
     "top_p": 0.95,
-    "top_k": 64,
+    "top_k": 20,
     "max_output_tokens": int(1024*8),
     "response_mime_type": "text/plain",  }
       model = genai.GenerativeModel(model_name="gemini-1.5-flash",generation_config=generation_config)
